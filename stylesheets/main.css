@@ -1,36 +1,21 @@
-section#section_1{
-  background: blue;
-  background: pink;
-}
-.classy_section{
-  background: green
-}
+<style>
 
-h2 {
-  text-align: center;
-  color: blue;
-}
-<style type="text/css">
-h1
-{
-font-family:arial; /*Le titre sera en Arial*/
-text-align:center;
-text-weight:bold;
-text-decoration:underline;
-}
-#banniere
-{
-margin-left:150px;
-margin-right:150px;
-}
-body
-{
-text-align:justify;font-family:verdana;
-background-image:"/home/agent/bureau/images/eclaire.jpg"fixed;
-}
 body {
-    background-color: lightblue;
+	background-color:#676570;
+    color:#ECECEC;
+	font-family: Amatic SC;
+			}
+
+h1 {
+    color: white;
+    font-family: Amatic SC;
+    font-size: 81px;
+    text-align: center;
 }
 
-
+p {
+    font-family: Amatic SC;
+    font-size: 15px;
+}
 </style>
+
