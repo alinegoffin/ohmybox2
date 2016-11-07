@@ -1,21 +1,53 @@
 <style>
 
-body {
-	background-color:#676570;
-    color:#ECECEC;
-	font-family: Amatic SC;
-			}
-
-h1 {
-    color: white;
+header{
+    background-color: pink;
+    color:#444;
     font-family: Amatic SC;
     font-size: 81px;
     text-align: center;
+            
+        }
+
+/* Je sélectionne les <li> du menu horizontal */
+ul#menu_horizontal li { 
+display : inline;
+padding : 0 1.2em; /* Pour espacer les boutons entre eux */
+text-align: center;
+}
+ul#menu_horizontal {
+list-style-type : none; /* Car sinon les puces se placent n'importe où */
+}
+
+
+body {
+    background-color:rgb(255,255,255);
+    color:#ECECEC;
+    font-family: Roboto Slab serif;
+     }
+
+h1 {
+    color: #444;
+    font-family: Amatic SC;
+    font-size: 81px;
+    text-align: center;
+    }
+
+h2 {
+    color: #444;
+    font-family: Roboto Slab, serif;
+    font-size: 18px;
+    }
+
+ul {
+    color: pink;
+    font-family: Roboto Slab, serif;
+    font-size: 15px;
 }
 
 p {
-    font-family: Amatic SC;
-    font-size: 15px;
+    color: #444;
+    font-family: Roboto Slab serif;
+    font-size: 17px;
 }
 </style>
-
