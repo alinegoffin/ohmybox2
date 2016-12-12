@@ -551,8 +551,10 @@ pre:after, pre:before {
 }
 
 .navbar-brand img {
-  width: 80px;
+  width: 70px;
   height: auto;
+  padding-top: 0px;
+
 }
 
 /*============================*/
@@ -928,6 +930,7 @@ TOP BARS
 }
 .boxed-wrapper .tp-banner-container {
   margin: 0px auto;
+  
 }
 
 .boxed-wrapper .navbar-default {
