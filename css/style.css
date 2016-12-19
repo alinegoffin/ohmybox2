@@ -382,6 +382,12 @@ pre:after, pre:before {
   padding: 60px;
 }
 
+@media (min-width: 768px) {
+.container {
+    width: 100%;
+}
+}
+
 @media (max-width: 568px) {
   .no-padding-inner {
     padding: 15px;
@@ -533,6 +539,7 @@ pre:after, pre:before {
   line-height: 20px;
   font-style: normal;
   text-transform: uppercase;
+  padding: 0px 10px;
 }
 
 .navbar-nav > li > a {
@@ -551,8 +558,7 @@ pre:after, pre:before {
 }
 
 .navbar-brand img {
-  width: 70px;
-  height: auto;
+  height: 50px;
   padding-top: 0px;
 
 }
